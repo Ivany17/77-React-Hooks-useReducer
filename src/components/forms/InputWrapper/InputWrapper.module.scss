@@ -1,0 +1,19 @@
+.label{
+    display: block;
+    position: relative;
+}
+.error{
+    position: absolute;
+    top: +60%;
+    background-color: crimson;
+}
+.input{
+    padding: 1rem;
+    background-color: transparent;
+}
+.valid{
+    border-color: lightgreen;
+}
+.invalid{
+    border-color: lightcoral;
+}

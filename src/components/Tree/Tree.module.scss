@@ -1,0 +1,12 @@
+@import '../../common/styles/templates';
+.container{
+    text-align: center;
+}
+
+.light{
+    @extend %light;
+}
+
+.dark{
+    @extend %dark;
+}
